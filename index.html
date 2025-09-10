@@ -17,7 +17,7 @@
     }
 
     header {
-      background-color: #440000; /* 変更 */
+      background-color: #222222; /* 変更 */
       color: white;
       padding: 1rem;
       text-align: center;
@@ -28,13 +28,26 @@
     main {
       flex: 1;
       padding: 1rem 2rem;
-      color: #cc0000; /* 変更 */
+      color: #333333; /* 変更 */
     }
 
     main h2 {
       margin-top: 1.5rem;
-      color: #cc0000; /* main文字色に合わせて変更 */
+      color: #333333; /* main文字色に合わせて変更 */
     }
+
+    .image-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  width: 25%; /* ← これで横幅1/4サイズに！ */
+  height: auto;
+  border-radius: 8px;
+}
 
     footer {
       background-color: #440000; /* 変更 */
@@ -92,6 +105,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
